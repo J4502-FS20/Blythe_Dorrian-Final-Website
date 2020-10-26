@@ -1,0 +1,54 @@
+body{
+  text-align: center;
+  background-color: #7F8E7B
+
+
+}
+
+nav{
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #7F8E7B;
+  padding:15px;
+  font-family: 'Slabo', sans-serif;
+  font-size: 19.5px;
+  text-align: center;
+
+  }
+
+h2{
+  font-size: 25px;
+  padding: 15px;
+  text-align:center;
+  background-color: #C2C2C2;
+}
+
+.qanda h2{
+  text-transform: uppercase;
+}
+
+a{
+  font-size:19px;
+}
+
+img {
+  width:50%;
+  min-width:500px;
+  max-width: 800px;
+  opacity: 0.95;
+  border:none;
+  margin:center;
+  text-align: center;
+}
+
+title{
+  font-size: 20px;
+   background-color: #C2C2C2;
+}
+
+p{
+  font-size: 19px;
+}
