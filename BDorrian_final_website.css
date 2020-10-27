@@ -1,15 +1,14 @@
 body{
   text-align: center;
   background-color: #7F8E7B;
-
-
+  padding:20px;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 20px;
   background-color:#C2C2C2;
 
 }
@@ -22,13 +21,16 @@ nav a:hover {
 h1{
   font-size: 30px;
   background-color: white;
-
+  font-family: 'Merriweather',sans-serif;
+  padding: 25px;
 
 }
+
 h2{
-  font-size: 25px;
+  font-size: 28px;
   padding: 15px;
   text-align:center;
+  font-family: 'Slabo',sans-serif;
 }
 
 .qanda h2{
