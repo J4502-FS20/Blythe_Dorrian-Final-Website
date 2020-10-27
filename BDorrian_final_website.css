@@ -2,20 +2,22 @@ body{
   text-align: center;
   background-color: #7F8E7B;
   padding:20px;
+  font-family: 'Barlow', sans-serif;
+  font-size:25px;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 16px;
   background-color:#C2C2C2;
 
 }
 
 nav a:hover {
   color:black;
-  font-size:25px;
+  font-size:27px;
   }
 
 h1{
@@ -27,17 +29,37 @@ h1{
 }
 
 h2{
-  font-size: 28px;
+  font-size: 25px;
   padding: 15px;
   text-align:center;
-  font-family: 'Slabo',sans-serif;
+  font-family: 'Roboto',sans-serif;
 }
 
 .qanda h2{
   text-transform: uppercase;
   background-color: #C2C2C2;
+  font-size:20px;
+  font-family:'Barlow', sans-serif;
 }
 
+.data h1{
+font-family:'Barlow', sans-serif;
+font size:25px;
+
+}
+
+.help h1{
+font-family:'Barlow', sans-serif;
+font-size:27px;
+
+}
+
+.help h2{
+  font-size:27px;
+  font-family:'Barlow', sans-serif;
+}
+
+}
 a{
   font-size:19px;
 }
@@ -59,4 +81,5 @@ title{
 
 p{
   font-size: 20px;
+  font-family:'Barlow', sans-serif;
 }
