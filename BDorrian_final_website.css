@@ -42,6 +42,42 @@ h2{
   font-family:'Barlow', sans-serif;
 }
 
+.column {
+  width: 55%;
+  padding: 10px;
+  display: flex;
+}
+
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  display: none;
+
+  }
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
 .data h1{
 font-family:'Barlow', sans-serif;
 font size:25px;
@@ -59,19 +95,18 @@ font-size:27px;
   font-family:'Barlow', sans-serif;
 }
 
-}
 a{
   font-size:19px;
 }
 
 img {
-  width:50%;
+  width:90%;
   min-width:500px;
-  max-width: 800px;
-  opacity: 0.95;
+  max-width: 1500px;
   border:none;
-  margin:center;
-  text-align: center;
+  margin:auto;
+  display: flex;
+  justify-content: flex-start;
 }
 
 title{
@@ -80,6 +115,6 @@ title{
 }
 
 p{
-  font-size: 20px;
+  font-size: 22px;
   font-family:'Barlow', sans-serif;
 }
