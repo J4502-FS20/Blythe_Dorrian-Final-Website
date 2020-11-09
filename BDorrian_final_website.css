@@ -6,18 +6,20 @@ body{
   font-size:25px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 16px;
-  background-color:#C2C2C2;
-
+.nav{
+font-family:'Barlow', sans-serif;
+font-size: 24px;
+display:flex;
+flex-direction: column;
+font-weight:lighter;
+background-color: #C2C2C2;
+justify-content:space-around;
+padding: 20px;
 }
 
 nav a:hover {
   color:black;
-  font-size:27px;
+  font-size:24px;
   display:flex;
   }
 
@@ -75,58 +77,29 @@ font size:25px;
 .Value {
 	float: left;
 	display: inline;
-	margin-right: 1.5%;
+	margin: 2%;
   background: #C2C2C2;
   height: 20px;
+  padding:17px;
 }
 
 .ValueNumber {
 	margin-bottom: 0.2em;
 	font-family: 'Roboto', Arial, sans-serif;
 	float: left;
-	font-size: 0.9em;
+	font-size: 22px;
 	display: inline;
+  font-weight:bold;
+  background-color: white;
 }
 
-@media only screen and (min-width: 600px) {
-  .Name {
-    width: 140px;
+@media only screen and (min-width:600px) {
+  .nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display:flex;
   }
 }
-
-.mapHolder {
-  width: 100%;
-  max-width: 900px;
-  position: relative;
-  margin-bottom: 4rem;
-}
-
-.mapHolder img {
-  width: 100%;
-}
-
-.numberedDots {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: purple;
-  color: #ffffff;
-  text-align: center;
-  font-weight: bold;
-  font-family: "Helvetica", "Arial", sans-serif;
-  position: absolute;
-}
-
-.numberedDots span {
-  padding-top: 5px;
-  display: block;
-}
-
-#dot1 {
-  top: 11%
-  left: 12%;
-}
-
 
 .help h1{
 font-family:'Barlow', sans-serif;
@@ -183,6 +156,7 @@ img {
   width: 100%;
   max-width: 750px;
   margin:center;
+  display:flex;
 }
 
 .button_holder {
