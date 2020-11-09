@@ -34,12 +34,13 @@ h2{
   padding: 15px;
   text-align:center;
   font-family: 'Roboto',sans-serif;
+  background-color: #C2C2C2;
 }
 
 h3{
   font-size:25px;
-  font-family: 'Roboto',sans-serif;
-  background-color: #FFFFFF;
+  font-family: 'Merriweather',sans-serif;
+  background-color: white;
 }
 
 .qanda h2{
@@ -92,6 +93,40 @@ font size:25px;
     width: 140px;
   }
 }
+
+.mapHolder {
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.mapHolder img {
+  width: 100%;
+}
+
+.numberedDots {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: purple;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Helvetica", "Arial", sans-serif;
+  position: absolute;
+}
+
+.numberedDots span {
+  padding-top: 5px;
+  display: block;
+}
+
+#dot1 {
+  top: 11%
+  left: 12%;
+}
+
 
 .help h1{
 font-family:'Barlow', sans-serif;
