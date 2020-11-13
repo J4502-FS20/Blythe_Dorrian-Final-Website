@@ -1,5 +1,4 @@
 body{
-  text-align: center;
   background-color: #909E8A;
   padding:20px;
   font-family: 'Barlow', sans-serif;
@@ -15,11 +14,13 @@ font-weight:lighter;
 background-color: #C2C2C2;
 justify-content:space-around;
 padding: 20px;
+margin:auto;
 }
 
 nav a:hover {
   color:black;
   font-size:24px;
+
   }
 
 h1{
@@ -34,7 +35,6 @@ h1{
 h2{
   font-size: 25px;
   padding: 15px;
-  text-align:center;
   font-family: 'Roboto',sans-serif;
   background-color: #C2C2C2;
 }
@@ -61,7 +61,7 @@ font-size:25px;
 .row {
 	margin-bottom: 0.2em;
 	padding-bottom: 0.2em;
-	border-bottom: 1px dotted #bbb;
+	border-bottom: 1px dotted #C2C2C2;
 	width: 100%;
 	float: left;
 }
@@ -69,7 +69,7 @@ font-size:25px;
 .Name {
 	width: 100%;
 	margin-bottom: 0.2em;
-	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-family: 'Barlow', Helvetica, Arial, sans-serif;
 	float: left;
 	font-size: 0.9em;
 }
@@ -77,29 +77,19 @@ font-size:25px;
 .Value {
 	float: left;
 	display: inline;
-	margin: 2%;
+	margin-right: 1.5%;
   background: #C2C2C2;
   height: 20px;
-  padding:17px;
 }
 
 .ValueNumber {
 	margin-bottom: 0.2em;
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family: 'BentonSans', Helvetica, Arial, sans-serif;
 	float: left;
-	font-size: 22px;
+	font-size: 0.9em;
 	display: inline;
-  font-weight:bold;
-  background-color: white;
 }
 
-@media only screen and (min-width:600px) {
-  .nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    display:flex;
-  }
-}
 
 .help h1{
 font-family:'Barlow', sans-serif;
@@ -120,7 +110,8 @@ font-size:27px;
 }
 
 a{
-  font-size:19px;
+color:black;
+text-decoration: underline;
 }
 
 img {
@@ -176,4 +167,15 @@ title{
 p{
   font-size: 22px;
   font-family:'Barlow', sans-serif;
+}
+
+@media only screen and (min-width:600px) {
+  .nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display:flex;
+  }
+  .Name {
+    width: 160px;
+  }
 }
