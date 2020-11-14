@@ -3,6 +3,7 @@ body{
   padding:20px;
   font-family: 'Barlow', sans-serif;
   font-size:25px;
+  margin:auto;
 }
 
 .nav{
@@ -20,6 +21,8 @@ margin:auto;
 nav a:hover {
   color:black;
   font-size:24px;
+   display: inline-block;
+   background-color: #F1AB86;
 
   }
 
@@ -28,6 +31,7 @@ h1{
   background-color: white;
   font-family: 'Merriweather',sans-serif;
   padding: 25px;
+   text-align: center;
 
 }
 
@@ -37,12 +41,14 @@ h2{
   padding: 15px;
   font-family: 'Roboto',sans-serif;
   background-color: #C2C2C2;
+   text-align: center;
 }
 
 h3{
   font-size:25px;
   font-family: 'Merriweather',sans-serif;
   background-color: white;
+   text-align: center;
 }
 
 .qanda h2{
@@ -162,6 +168,7 @@ img {
 title{
   font-size: 20px;
    background-color: #C2C2C2;
+   text-align: center;
 }
 
 p{
