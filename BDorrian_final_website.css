@@ -133,9 +133,9 @@ img {
 .imageGallery {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 80%;
   min-width:350px;
-  max-width: 900px;
+  max-width: 780px;
   padding: 10px;
   margin:auto
 }
